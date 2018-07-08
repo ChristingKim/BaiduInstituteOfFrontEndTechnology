@@ -1,0 +1,32 @@
+html {
+    font-family: sans-serif;
+  }
+  body {
+    margin: 0;
+  }
+  header {
+    background: purple;
+    height: 100px;
+  }
+  h1 {
+    text-align: center;
+    color: white;
+    line-height: 100px;
+    margin: 0;
+  }
+  section{
+    overflow:auto;
+  }
+  article {
+    padding: 5px;
+    margin: 5px;
+    background: aqua;
+    box-sizing: border-box;
+  }
+  .left{
+    margin-right:310px;
+  }
+  .right{
+    position: absolute;
+    width:300px;
+  }
