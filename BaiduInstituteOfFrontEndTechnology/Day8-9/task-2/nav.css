@@ -34,7 +34,7 @@ html {
 .page2,
 .page3,
 .page4 {
-    position: relative;
+    position: absolute;
     bottom: 10px;
     width: 20px;
     height: 30px;
@@ -63,6 +63,7 @@ html {
     border-bottom: 1px solid #cccccc;
 }
 .nav-tags{
+    position: relative;
     margin: 0 auto;
     width: 960px;
     height: 60px;
@@ -90,7 +91,7 @@ html {
 }
 .main-container {
     position: absolute;
-    margin-top:0px;
+    margin-top:80px;
     width: 960px;
 }
 .row {
